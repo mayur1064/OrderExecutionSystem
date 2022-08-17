@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Order Execution System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img src="C:\Users\ASUS\OneDrive\Desktop\Imarticus\ubs_dark.png" height="40" style="margin-right:20px;">  
+          <a class="navbar-brand" href="#">Order Execution System</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Orders</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Portfolio
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Help</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-success" type="submit">Log out</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+<div class="container">
+    <div class="row">
+        <div class="text-center col-12 mt-5">
+            <h1>What are you looking for today ?</h1>
+            <h5 class="text-muted">Invest in stocks of companies across the country with UBS</h5> 
+        </div>
+    </div>
+    <div class="row">
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
+                    <input type="text" class="form-control col-8" placeholder="Search for stocks, futures, options and more...">
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-success">Go</button>
+                </div>
+    </div>
+
+    <div class="row">
+        <h3>Index</h3>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">NIFTY50</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 17698.34</h5>
+                  <h5 class="card-subtitle mb-2 text-success">390.5(2.2%)</h5>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">SENSEX</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 59462.78</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">594.5(10.2%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">BANK NIFTY</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 39,042</h5>
+                  <h5 class="card-subtitle mb-2 text-success">162.45(0.42%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">NIFTY PHARMA</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 12,864</h5>
+                  <h5 class="card-subtitle mb-2 text-success">150.20(1.15%)</h5>
+                </div>
+              </div>
+        </div>
+      </div>
+
+    <div class="row mt-3">
+        <h3>Top gainers</h3>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Zomato</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 61.75</h5>
+                  <h5 class="card-subtitle mb-2 text-success">3.85(6.65%)</h5>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Infosys</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 1,593.75</h5>
+                  <h5 class="card-subtitle mb-2 text-success">76.40(5.82%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Tata Motors</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 476.70</h5>
+                  <h5 class="card-subtitle mb-2 text-success">38.45(8.42%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Reliance</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 2,632.00</h5>
+                  <h5 class="card-subtitle mb-2 text-success">120.34(5.15%)</h5>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <h3>Top Losers</h3>
+    </div>
+
+    <div class="row mt-3 mb-3">
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Wipro</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 61.75</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">3.85(6.65%)</h5>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Hindalco</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 1,593.75</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">76.40(5.82%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Indian Oil</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 476.70</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">38.45(8.42%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">ITC</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 2,632.00</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">120.34(5.15%)</h5>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>
+
+  
+
+
+</body>
+</html>
