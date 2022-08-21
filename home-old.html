@@ -21,13 +21,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Orders</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Holdings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Positions</a>
+                <a class="nav-link" href="#">My Orders</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,49 +46,10 @@
       </nav>
 
 
-<div class="container" style="margin-top:70px;">
-
-  <div class="row mt-4">
-    <!-- TradingView Widget BEGIN -->
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-    {
-    "symbols": [
-      {
-        "proName": "FOREXCOM:SPXUSD",
-        "title": "S&P 500"
-      },
-      {
-        "proName": "FOREXCOM:NSXUSD",
-        "title": "US 100"
-      },
-      {
-        "description": "",
-        "proName": "NSE:NIFTY1!"
-      },
-      {
-        "description": "",
-        "proName": "NSE:BANKNIFTY"
-      },
-      {
-        "description": "",
-        "proName": "FX:EURUSD"
-      }
-    ],
-    "showSymbolLogo": true,
-    "colorTheme": "light",
-    "isTransparent": false,
-    "displayMode": "adaptive",
-    "locale": "in"
-  }
-    </script>
-  </div>
-</div>
-
+<div class="container" style="margin-top:50px;">
     <div class="row">
-        <div class="text-center col-12 mt-3">
-            <h1>What are you investing in today ?</h1>
+        <div class="text-center col-12 mt-5">
+            <h1>What are you looking for today ?</h1>
             <h5 class="text-muted">Invest in stocks of companies across the country with UBS</h5> 
         </div>
     </div>
@@ -116,51 +71,23 @@
 
     <div class="row mt-3">
         <div class="col-3">
-            <!-- TradingView Widget BEGIN -->
-              <div class="tradingview-widget-container">
-                <div class="tradingview-widget-container__widget"></div>
-                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
-                {
-                "symbol": "CAPITALCOM:NIFTY50",
-                "width": 320,
-                "height": 220,
-                "locale": "in",
-                "dateRange": "12M",
-                "colorTheme": "light",
-                "trendLineColor": "rgba(41, 98, 255, 1)",
-                "underLineColor": "rgba(41, 98, 255, 0.3)",
-                "underLineBottomColor": "rgba(41, 98, 255, 0)",
-                "isTransparent": false,
-                "autosize": false,
-                "largeChartUrl": ""
-              }
-                </script>
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">NIFTY50</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 17698.34</h5>
+                  <h5 class="card-subtitle mb-2 text-success">390.5(2.2%)</h5>
+                  
+                </div>
               </div>
-              <!-- TradingView Widget END -->
         </div>
-
         <div class="col-3">
-                          <!-- TradingView Widget BEGIN -->
-              <div class="tradingview-widget-container">
-                <div class="tradingview-widget-container__widget"></div>
-                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
-                {
-                "symbol": "BSE:SENSEX",
-                "width": 320,
-                "height": 220,
-                "locale": "in",
-                "dateRange": "12M",
-                "colorTheme": "light",
-                "trendLineColor": "rgba(41, 98, 255, 1)",
-                "underLineColor": "rgba(41, 98, 255, 0.3)",
-                "underLineBottomColor": "rgba(41, 98, 255, 0)",
-                "isTransparent": false,
-                "autosize": false,
-                "largeChartUrl": ""
-              }
-                </script>
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">SENSEX</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 59462.78</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">594.5(10.2%)</h5>
+                </div>
               </div>
-              <!-- TradingView Widget END -->
         </div>
         <div class="col-3">
             <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
@@ -183,17 +110,98 @@
       </div>
 
     <div class="row mt-3">
-        <h3>Stock Market Today</h3>
+        <h3>Top gainers and losers</h3>
     </div>
-    
-    <div class="row mt-3">
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <div class="tradingview-widget-copyright"></div>
+
+    <!-- <div class="row mt-3">
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Zomato</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 61.75</h5>
+                  <h5 class="card-subtitle mb-2 text-success">3.85(6.65%)</h5>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Infosys</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 1,593.75</h5>
+                  <h5 class="card-subtitle mb-2 text-success">76.40(5.82%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Tata Motors</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 476.70</h5>
+                  <h5 class="card-subtitle mb-2 text-success">38.45(8.42%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Reliance</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 2,632.00</h5>
+                  <h5 class="card-subtitle mb-2 text-success">120.34(5.15%)</h5>
+                </div>
+              </div>
+        </div>
       </div>
+
+      <div class="row mt-3">
+        <h3>Top Losers</h3>
     </div>
 
+    <div class="row mt-3 mb-3">
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Wipro</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 61.75</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">3.85(6.65%)</h5>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Hindalco</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 1,593.75</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">76.40(5.82%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">Indian Oil</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 476.70</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">38.45(8.42%)</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-3">
+            <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h4 class="card-title">ITC</h4>
+                  <h5 class="card-subtitle mb-2 text-muted">&#x20b9 2,632.00</h5>
+                  <h5 class="card-subtitle mb-2 text-danger">120.34(5.15%)</h5>
+                </div>
+              </div>
+        </div>
+      </div> -->
 
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/stocks-india/" rel="noopener" target="_blank"><span class="blue-text">Stock Market Today</span></a> by TradingView</div>
+</div>
+</div>
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
   {
@@ -206,7 +214,7 @@
   "isTransparent": false,
   "showSymbolLogo": false,
   "showFloatingTooltip": false,
-  "width": "1300",
+  "width": "1000",
   "height": "600",
   "plotLineColorGrowing": "rgba(106, 168, 79, 1)",
   "plotLineColorFalling": "rgba(204, 0, 0, 1)",
