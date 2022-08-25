@@ -113,7 +113,7 @@
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="#">Exit</a></li>
                 <li><a class="dropdown-item" href="#">Add</a></li>
-                <li><a class="dropdown-item" href="#">Create Alert</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Create Alert</a></li>
                 <li><a class="dropdown-item" href="#">Market Depth</a></li>
               </ul>
             </div>
@@ -339,7 +339,7 @@
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="#">Exit</a></li>
                 <li><a class="dropdown-item" href="#">Add</a></li>
-                <li><a class="dropdown-item" href="#">Create Alert</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Create Alert</a></li>
                 <li><a class="dropdown-item" href="#">Market Depth</a></li>
               </ul>
             </div>
@@ -355,6 +355,64 @@
         
       </tbody>
     </table>
+  </div>
+</div>
+
+ <!-- Create Alert Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New Alert</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal-body container">
+        <div class="input-group mb-3">
+          <button class="btn btn-outline-secondary">Name </button>
+          <input type="text" class="form-control" aria-label="Text input with dropdown button">
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h5>Property</h5>
+            <select class="form-select form-select mb-3" id="charstype" aria-label=".form-select-lg example">
+              <option selected>Last Traded Price</option>
+              <option value="1">High Price</option>
+              <option value="1">Low Price</option>
+              <option value="1">Open Price</option>
+              <option value="1">Close Price</option>
+              <option value="1">Day Change</option>
+              <option value="1">Open Interest</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h5>Is</h5>
+            <select class="form-select form-select mb-3" id="charstype" aria-label=".form-select-lg example">
+              <option selected>Greater Than (>)</option>
+              <option value="1">Grater Than Eual to (>=)</option>
+              <option value="1">Less Than</option>
+              <option value="1">Open Price</option>
+              <option value="1">Close Price</option>
+              <option value="1">Day Change</option>
+              <option value="1">Open Interest</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <button class="btn btn-outline-secondary">Value </button>
+          <input type="text" class="form-control" aria-label="Text input with dropdown button">
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Place Order</button>
+      </div>
+    </div>
   </div>
 </div>
 
